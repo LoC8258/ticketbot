@@ -11,10 +11,10 @@
 | **Command** | **Usage**                     | **Aliases**  | **Delay?** | **Admin Only?** | **Description**                                   |
 |-------------|-------------------------------|--------------|------------|-----------------|---------------------------------------------------|
 | setup       | setup                         | ticketsetup  | -          | true            | Set the channel tickets can be opened from        |
-| close       | close                         | closerequest | 10 mins    | true/false      | Close the current ticket channel                  |
+| close       | close                         | closerequest | 10min      | true/false      | Close the current ticket channel                  |
 | add         | add <user/role resolvable>    | -            | -          | true            | Give a user/role access to the ticket channel     |
 | remove      | remove <user/role resolvable> | -            | -          | true            | Remove a user/role's access to the ticket channel |
-| rename      | rename <new name>             | -            | 10 mins    | true            | Give the current ticket channel a new name        |
+| rename      | rename <new name>             | -            | 10min      | true            | Give the current ticket channel a new name        |
 
 ## Reaction Roles Commands
 coming soon
