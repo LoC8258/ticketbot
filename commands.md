@@ -10,11 +10,13 @@
 ## Ticket Commands
 | **Command** | **Usage**                     | **Delay?** | **Admin Only?** | **Description**                                   |
 |-------------|-------------------------------|------------|-----------------|---------------------------------------------------|
+| open        | open                          | -          | false           | Open a new ticket                                 |
 | setup       | setup                         | -          | true            | Set the channel tickets can be opened from        |
 | close       | close                         | 10min      | true/false      | Close the current ticket channel                  |
 | add         | add <user/role resolvable>    | -          | true            | Give a user/role access to the ticket channel     |
 | remove      | remove <user/role resolvable> | -          | true            | Remove a user/role's access to the ticket channel |
 | rename      | rename <new name>             | 10min      | true            | Give the current ticket channel a new name        |
+| reopen      | reopen                        | -          | true            | Re-open a closed ticket                           |
 
 ## Moderation Commands
 | **Command** | **Usage**                              | **Delay?** | **Admin Only?** | **Description**              |
